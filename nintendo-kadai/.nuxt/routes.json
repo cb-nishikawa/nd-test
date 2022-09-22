@@ -1,0 +1,14 @@
+[
+  {
+    "name": "detail",
+    "path": "/detail",
+    "component": "/Volumes/イギーのSSD/private/src/nintendo-kadai/pages/detail.vue",
+    "chunkName": "pages/detail"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Volumes/イギーのSSD/private/src/nintendo-kadai/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

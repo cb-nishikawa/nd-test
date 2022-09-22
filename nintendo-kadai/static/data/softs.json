@@ -1,0 +1,244 @@
+{
+    "softs": [
+        {
+            "title": "星のカービィ ディスカバリー",
+            "subTitle": "「星のカービィ」初の3Dアクション",
+            "text": "「星のカービィ」シリーズ最新作の舞台は、文明と自然が融合した未知なる「新世界」。すって、はいて、飛んで、コピーして。奥行きのある3Dのステージを、カービィおなじみのアクションで自由に動き回って冒険します。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%20%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%0A",
+            "categories": ["action"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000046404.html"
+        },
+        {
+            "title": "Nintendo Switch Sports",
+            "subTitle": "Joy-Conを振って体感スポーツ！",
+            "text": "「Wii Sports」シリーズの最新作『Nintendo Switch Sports』がNintendo Switchに登場。本作は、Joy-Conを使った直感的な操作で、どなたでもお楽しみいただけます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=Nintendo%20Switch%20Sports",
+            "categories": ["activity"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000049930.html"
+        },
+        {
+            "title": "スプラトゥーン3",
+            "subTitle": "大自然で！大都会で！　さらに広がるナワバリバトル！",
+            "text": "ヒトの姿に変身する不思議なイカたちによる、アクションシューティングがパワーアップして登場！　4対4のチームに分かれて、地面を塗った面積で勝敗を決める基本的なルールはそのままに、新たなブキやスペシャルウェポン、バトルアクションが追加。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B33",
+            "categories": ["battle"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000046394.html"
+        },
+        {
+            "title": "マリオカート８ デラックス",
+            "subTitle": "あらゆる場所がサーキットに！　レース、バトル、すべてがデラックス。",
+            "text": "今までにないキャラクター、コース、マシンが加わり、『マリオカート８』がデラックスに！Wii U の『マリオカート８』に、発売後に配信した有料追加コンテンツを全て収録。さらに本作独自の新しいキャラクターやコース、マシンなどの新要素がプラスされ、シリーズ最大ボリュームのマリオカートとして新たに登場します。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9E%E3%83%AA%E3%82%AA%E3%82%AB%E3%83%BC%E3%83%88%EF%BC%98%20%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9",
+            "categories": ["battle"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000000186.html"
+        },
+        {
+            "title": "Pokémon LEGENDS アルセウス",
+            "subTitle": "アクションとRPGが融合した、『ポケットモンスター』シリーズ最新作。",
+            "text": "冒険の舞台は、雄大な自然が広がる「ヒスイ地方」。まだポケモントレーナーやポケモンリーグといった概念もない時代の話で、この地はやがて「シンオウ地方」と呼ばれるようになります。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=Pok%C3%A9mon%20LEGENDS%20%E3%82%A2%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9",
+            "categories": ["rpg"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000039944.html"
+        },
+        {
+            "title": "マリオストライカーズ　バトルリーグ",
+            "subTitle": "「格闘技」×「サッカー」　ルール無用の新スポーツ「ストライク」が開幕！",
+            "text": "ラフプレー、アイテム攻撃、必殺シュート、なんでもアリ！5対5で戦う新スポーツ「ストライク」でマリオたちが激突！シュート力やパス精度など、選手たちの能力や見た目を「ギア」でカスタマイズしてチームを編成。おすそわけプレイにも対応し、Nintendo Switch1台で最大8名まで遊ぶことができます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9E%E3%83%AA%E3%82%AA%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA%E3%80%80%E3%83%90%E3%83%88%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B0",
+            "categories": ["battle"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000049935.html"
+        },
+        {
+            "title": "Xenoblade3 (ゼノブレイド3)",
+            "subTitle": "生きるために戦い、戦うために生きる。過去と未来をつなぐ、命の物語。",
+            "text": "雄大な自然が広がる世界「アイオニオン」。「ケヴェス」、「アグヌス」敵対する2国による争いが過熱する中、それぞれに所属する6人の少年少女。なぜ戦わなければいけないのか…真実を知るために、「大剣の突き立つ大地」を目指す。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=Xenoblade3%20(%E3%82%BC%E3%83%8E%E3%83%96%E3%83%AC%E3%82%A4%E3%83%893)",
+            "categories": ["rpg"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000053335.html"
+        },
+        {
+            "title": "ポケットモンスター バイオレット",
+            "subTitle": "『ポケットモンスター』シリーズはオープンワールドへ。",
+            "text": "ポケモンを捕まえたり、交換したり、育ててバトルに挑んだり。『ポケットモンスター』シリーズならではの遊びを、オープンワールドの世界で楽しめます。大自然や街には、至る所にポケモンたちが息づいており、境目なく広がるフィールドを自由に冒険することができます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88",
+            "categories": ["rpg"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000053970.html"
+        },
+        {
+            "title": "カービィのグルメフェス",
+            "subTitle": "転がって、食べて、大きくなって。お菓子な世界で食いしんぼうグルメバトル！",
+            "text": "４人のカービィが食べたイチゴの量を競い合う対戦アクション。転がりながら進むカービィは、ステージ上のイチゴを食べるとだんだん大きな姿に。最終的にいちばん大きくなったカービィが優勝です。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%95%E3%82%A7%E3%82%B9",
+            "categories": ["action"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000056619.html"
+        },
+        {
+            "title": "マリオ＋ラビッツ ギャラクシーバトル",
+            "subTitle": "宇宙を舞台にマリオとラビッツが戦略バトル",
+            "text": "「マリオ」とちょっとおかしな「ラビッツ」が、宇宙を冒険しながら、ターン制のバトルで敵と戦うシミュレーションアドベンチャー。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9E%E3%83%AA%E3%82%AA%EF%BC%8B%E3%83%A9%E3%83%93%E3%83%83%E3%83%84%20%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%90%E3%83%88%E3%83%AB",
+            "categories": ["action"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000057243.html"
+        },
+        {
+            "title": "マリオパーティ スーパースターズ",
+            "subTitle": "歴代シリーズから、懐かしの「スゴロク」と、厳選した「ミニゲーム」をつめこんだ「マリオパーティ」",
+            "text": "歴代「マリオパーティ」から、NINTENDO 64の「スゴロク」と、厳選した「ミニゲーム」をギュギュっとつめこんだ「マリオパーティ」です。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9E%E3%83%AA%E3%82%AA%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA",
+            "categories": ["party"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000042933.html"
+        },
+        {
+            "title": "おすそわける　メイド イン ワリオ",
+            "subTitle": "5秒で遊ぶ！ 瞬間アクション",
+            "text": "次々に出現するプチゲームを連続でクリアしていく「メイド イン ワリオ」シリーズの最新作がNintendo Switchに登場。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%81%8A%E3%81%99%E3%81%9D%E3%82%8F%E3%81%91%E3%82%8B%E3%80%80%E3%83%A1%E3%82%A4%E3%83%89%20%E3%82%A4%E3%83%B3%20%E3%83%AF%E3%83%AA%E3%82%AA",
+            "categories": ["party"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000042928.html"
+        },
+        {
+            "title": "ゼルダの伝説 スカイウォードソード HD",
+            "subTitle": "ゼルダの伝説、はじまりの物語。「スカイウォードソード」がNintendo Switchに登場。",
+            "text": "舞台は、空に浮かぶ島「スカイロフト」。人々は大きな鳥「ロフトバード」に乗り、大空を移動して生活を送っていました。騎士学校に通う主人公の青年リンクは、とある出来事によって離れ離れになってしまった幼なじみの少女ゼルダを探すため、雲の下に広がる未知なる大地に降り立ち、冒険へと旅立ちます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%89%E3%82%BD%E3%83%BC%E3%83%89%20HD",
+            "categories": ["action"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000038611.html"
+        },
+        {
+            "title": "マリオゴルフ スーパーラッシュ",
+            "subTitle": "『マリオゴルフ』シリーズ最新作がSwitchに登場。",
+            "text": "個性豊かなマリオキャラクターたちが登場するマリオゴルフの最新作が、Nintendo Switchに登場。実際のゴルフと同様に風や地形を読み、狙いを定めてショット。画面右にあるパワーゲージをためて簡単にショットを打てるので、実際のゴルフではなかなか打つのが難しいスーパーショットもシンプルなボタン操作で打つことができます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9E%E3%83%AA%E3%82%AA%E3%82%B4%E3%83%AB%E3%83%95%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5",
+            "categories": ["activity"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000038621.html"
+        },
+        {
+            "title": "スーパーマリオ ３Ｄワールド ＋ フューリーワールド",
+            "subTitle": "マリオの2つの冒険が、1つに。『スーパーマリオ ３Ｄワールド』に、巨大で凶暴なクッパに挑む新モードをプラス！",
+            "text": "2013年にWii Uで発売した『スーパーマリオ ３Ｄワールド』。その「３Dワールド」が、新モード「フューリーワールド」をプラスしてNintendo Switchに登場します！",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%82%AA%20%EF%BC%93%EF%BC%A4%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%20%EF%BC%8B%20%E3%83%95%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89",
+            "categories": ["action"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000034438.html"
+        },
+        {
+            "title": "ピクミン３ デラックス",
+            "subTitle": "ピクミンたちの力を借りて、惑星からの帰還を目指す。",
+            "text": "主人公は、食糧資源を探して宇宙に旅立った調査隊、アルフ、ブリトニー、チャーリーの3人。とある惑星に着陸した彼らは、そこで出会った「ピクミン」というふしぎな生き物の力を借りて、この惑星にあるフルーツのタネを故郷に持ち帰るため、探索をはじめます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%94%E3%82%AF%E3%83%9F%E3%83%B3%EF%BC%93%20%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9",
+            "categories": ["action"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000005303.html"
+        },
+        {
+            "title": "ドラゴンクエストX　目覚めし五つの種族　オフライン",
+            "subTitle": "これは《オフライン》で楽しむ『ドラゴンクエストX』の“物語”",
+            "text": "五つの大陸といくつかの島々からなる世界「アストルティア」 主人公（あなた）は、五つの種族が暮らす各大陸をめぐりながら、仲間たちとともに魔に侵され始めたアストルティアを救う冒険に旅立つ！",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88X%E3%80%80%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%97%E4%BA%94%E3%81%A4%E3%81%AE%E7%A8%AE%E6%97%8F%E3%80%80%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3",
+            "categories": ["rpg"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000042357.html"
+        },
+        {
+            "title": "あつまれ　どうぶつの森",
+            "subTitle": "無人島ではじまる、新生活。",
+            "text": "現実と同じ時間が流れる世界で、自由気ままな毎日を過ごす「どうぶつの森」シリーズ。釣りやムシとり、ガーデニングなどアウトドアな遊びから、お部屋づくり・ファッションまで様々な趣味を、１年を通してお楽しみいただけます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C%E3%80%80%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE",
+            "categories": ["simulation"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000027618.html"
+        },
+        {
+            "title": "牧場物語 再会のミネラルタウン",
+            "subTitle": "人生まるごと楽しめる♪ 自然いっぱいの牧場で「ほのぼの生活」をはじめよう！",
+            "text": "ほのぼの生活ゲーム「牧場物語」シリーズ第1弾！ 個性豊かな人びとが暮らす町「ミネラルタウン」を舞台に、新たな牧場生活がはじまります。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E7%89%A7%E5%A0%B4%E7%89%A9%E8%AA%9E%20%E5%86%8D%E4%BC%9A%E3%81%AE%E3%83%9F%E3%83%8D%E3%83%A9%E3%83%AB%E3%82%BF%E3%82%A6%E3%83%B3",
+            "categories": ["simulation"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000018201.html"
+        },
+        {
+            "title": "ドラえもん のび太の牧場物語 大自然の王国とみんなの家",
+            "subTitle": "癒される場所がある。みんなの家がある。",
+            "text": "見知らぬ星へやってきたのび太たち。そこで出会った少年ライトの夢を叶えるため、みんなでルームシェアをしながら牧場を盛り立てることに。他にも、花火大会に行ったり、星座を眺めたり、初日の出を見に早起きしたり。みんなで過ごす、かけがえのない毎日が紡がれていきます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%20%E3%81%AE%E3%81%B3%E5%A4%AA%E3%81%AE%E7%89%A7%E5%A0%B4%E7%89%A9%E8%AA%9E%20%E5%A4%A7%E8%87%AA%E7%84%B6%E3%81%AE%E7%8E%8B%E5%9B%BD%E3%81%A8%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E5%AE%B6",
+            "categories": ["simulation"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000036183.html"
+        },
+        {
+            "title": "ドラえもん のび太の牧場物語",
+            "subTitle": "「ドラえもん」が「牧場物語」の世界に！？",
+            "text": "神秘的な大樹が印象的なゲームオリジナルの世界「シーゼンタウン」を舞台に、「ドラえもん」に登場するお馴染みのキャラクターが大活躍します。「絆」をテーマにしたゲームオリジナルで描かれるストーリーを通して、感動的な体験やキャラクター同士の心温まる交流をお楽しみください♪",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%20%E3%81%AE%E3%81%B3%E5%A4%AA%E3%81%AE%E7%89%A7%E5%A0%B4%E7%89%A9%E8%AA%9E",
+            "categories": ["simulation"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000014710.html"
+        },
+        {
+            "title": "クレヨンしんちゃん『オラと博士の夏休み』～おわらない七日間の旅～",
+            "subTitle": "",
+            "text": "夏休みを九州で過ごすことになった、しんちゃんと野原一家。自然豊かな町「アッソー」で、一週間の生活がはじまります。朝は、ラジオに合わせて元気に体操！めずらしい虫をつかまえたり、近くの小川で魚を釣ったり。楽しい夏休みを過ごすはずだったのですが",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%E3%80%8E%E3%82%AA%E3%83%A9%E3%81%A8%E5%8D%9A%E5%A3%AB%E3%81%AE%E5%A4%8F%E4%BC%91%E3%81%BF%E3%80%8F%EF%BD%9E%E3%81%8A%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E4%B8%83%E6%97%A5%E9%96%93%E3%81%AE%E6%97%85%EF%BD%9E",
+            "categories": ["simulation"],
+            "url": "https://store-jp.nintendo.com/list/software/HAC_P_A242A_JPN.html"
+        },
+        {
+            "title": "桃太郎電鉄 ～昭和 平成 令和も定番！～",
+            "subTitle": "いつでも どこでも 出発進行！",
+            "text": "鉄道会社の社長になって、全国の物件を手に入れながら、総資産日本一を目指す「桃太郎電鉄」。『桃太郎電鉄 ～昭和 平成 令和も定番！～』では、新たな駅や物件が多数登場します。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E6%A1%83%E5%A4%AA%E9%83%8E%E9%9B%BB%E9%89%84%20%EF%BD%9E%E6%98%AD%E5%92%8C%20%E5%B9%B3%E6%88%90%20%E4%BB%A4%E5%92%8C%E3%82%82%E5%AE%9A%E7%95%AA%EF%BC%81%EF%BD%9E",
+            "categories": ["party"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000018271.html"
+        },
+        {
+            "title": "太鼓の達人 ドンダフルフェスティバル",
+            "subTitle": "ひとりでも！みんなでも！太鼓でトコトン アソビつくそう！",
+            "text": "今回の舞台は太鼓の世界がギュッと詰まった街、オミコシティ！相棒のどんちゃんとオミコシティで出会ったくもきゅんと一緒に太鼓マスターを目指そう！収録曲は「紅蓮華」「Feel Special」「夜に駆ける」など76曲を収録！",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E5%A4%AA%E9%BC%93%E3%81%AE%E9%81%94%E4%BA%BA%20%E3%83%89%E3%83%B3%E3%83%80%E3%83%95%E3%83%AB%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB",
+            "categories": ["party"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000035478.html"
+        },
+        {
+            "title": "太鼓の達人 Nintendo Switchば～じょん！",
+            "subTitle": "太鼓の達人がNintendo Switchに登場！",
+            "text": "今作の最大の特徴はJoy-Conをバチに見立てて振る「フリフリ演奏」！バチに見立てたJoy-Conを「バチ持ち」して、まっすぐ振り下ろすと「ドン」、ななめに振り下ろすと「カッ」に。HD振動にも対応！太鼓を叩いている気分を味わえます♪",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E5%A4%AA%E9%BC%93%E3%81%AE%E9%81%94%E4%BA%BA%20Nintendo%20Switch%E3%81%B0%EF%BD%9E%E3%81%98%E3%82%87%E3%82%93%EF%BC%81",
+            "categories": ["party"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000001508.html"
+        },
+        {
+            "title": "リングフィット アドベンチャー",
+            "subTitle": "Nintendo Switchで冒険しながらフィットネス",
+            "text": "ファンタジー世界を冒険しながら、楽しく続けられる長期間のフィットネス・プログラムの「アドベンチャー」を始めとして、お手軽に始められる「ミニゲーム」、決められたフィットネス種目を連続でプレイする「セットメニュー」など、多彩なスタイルで運動することができます。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC",
+            "categories": ["activity"],
+            "url": "https://store-jp.nintendo.com/list/software/HAC_Q_AL3PA_JPN.html"
+        },
+        {
+            "title": "マリオ&ソニック AT 東京2020オリンピック™",
+            "subTitle": "大人気「マリオ」と「ソニック」が“東京2020オリンピック”を舞台に夢の競演！",
+            "text": "不思議なゲーム機に吸い込まれてしまったマリオとソニックが行きついたのは、1964年の東京を舞台にしたゲームの世界だった！本作では、最新CGで描かれる2020年と、懐かしの2Dドット表現で描かれる1964年という2つの世界を行き来しながら物語が進行します。東京の街を冒険しながら、様々な競技やミニゲームに挑戦して金メダルを集めよう！彼らは果たして元の世界に戻ることができるのか…？",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%83%9E%E3%83%AA%E3%82%AA%26%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20AT%20%E6%9D%B1%E4%BA%AC2020%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF%E2%84%A2",
+            "categories": ["party"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000013898.html"
+        },
+        {
+            "title": "ARMS",
+            "subTitle": "のびーるウデで、勝利をつかめ！新・格闘スポーツ開幕！",
+            "text": "左右の手でJoy-Conを「いいね持ち」して、あなたがパンチを出せば、キャラクターもパンチ。はじめての方にもわかりやすい直感的な操作でありながら、ダッシュ、ジャンプ、投げ、必殺のラッシュ攻撃など、多彩なテクニックや駆け引きを味わえます。のびるウデ「アーム」を使った、新しい格闘スポーツの誕生です。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=ARMS",
+            "categories": ["activity"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000000308.html"
+        },
+        {
+            "title": "ジャストダンス2021",
+            "subTitle": "新しいチャートトップのヒット40曲が入った究極のダンスゲーム！",
+            "text": "JustDance®2021は「”Don't Start Now” by Dua Lipa」,「”Feel Special” by TWICE」,「”Señorita” by Shawn Mendes & Camila Cabello」などの新しいチャートトップのヒット40曲が入った究極のダンスゲームです。友達や家族といっしょに楽しめるダンスパーティーをはじめよう！",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%88%E3%83%80%E3%83%B3%E3%82%B92021",
+            "categories": ["activity"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000033921.html"
+        },
+        {
+            "title": "1-2-Switch（ワンツースイッチ）",
+            "subTitle": "目と目を合わせて、1-2-Switch",
+            "text": "見るのは画面ではなく「相手の目」？Nintendo SwitchからJoy-Conを外し、相手に渡して向き合った瞬間、その場がゲームの世界に早変わり。見つめ合うことで、誰もが一緒に楽しめる、Joy-Conの多彩な機能を活かした全く新しいゲーム。それが「1-2-Switch（ワンツースイッチ）」です。",
+            "image": "https://placehold.jp/3d4070/ffffff/640x340.png?text=1-2-Switch%EF%BC%88%E3%83%AF%E3%83%B3%E3%83%84%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%EF%BC%89",
+            "categories": ["activity"],
+            "url": "https://store-jp.nintendo.com/list/software/70010000000027.html"
+        }
+    ]
+}

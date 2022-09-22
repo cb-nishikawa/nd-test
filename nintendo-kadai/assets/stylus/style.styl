@@ -1,0 +1,23 @@
+@charset "utf-8"
+@import "_s_config"
+@import "_s_reset"
+@import "_s_mixin"    
+@import "_s_base"
+
+// body
+// 	background-color #F00
+
+
+
+.page-enter
+	opacity 0
+	.l-mainWrapper01
+		.c-topBottomBlock01
+			transform translate3d(0, 100%, 0)
+		
+.page-enter-active
+	transition opacity 0.3s
+	.l-mainWrapper01
+		.c-topBottomBlock01
+			transition all 0.3s
+
