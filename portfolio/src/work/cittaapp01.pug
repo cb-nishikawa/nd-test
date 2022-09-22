@@ -1,0 +1,316 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/cittaapp01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual02
+							
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_mainvisual01.png", alt="").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_mainvisual02.png", alt="").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_mainvisual03.png", alt="").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2021.06 - 2022.04
+							h2.title
+								span citta 手帳アプリ
+							
+							p.text やりたいことを叶えたい時から使う、citta 手帳のスマートフォンアプリケーションを制作しました。デザイン、SwiftUIでのプログラミングを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list UI・UXデザイン(担当:全体) / SwiftUIプログラミング
+				
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_image01.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_image02.png", alt="")
+								p.text
+									| 既存の販売されている手帳をそのままアプリ化するのではなく、目標の可視化や他のユーザーとのつながりなど、アプリだからでできることを目指して制作しました。
+									br
+									| 目標を登録する際に、「なぜやるのか？」「どうやってやるのか？」を決めて誓約書に自分でスタンプを押して貰うことで、ユーザーに目標を達成してもらえるように促します。
+							
+
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_image03.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_image04.png", alt="")
+								
+								p.text
+									| 日付を決めて3回時間を修正したら目標自体を消すように促すなど、アプリの元になるcitta手帳のマインドを踏襲する要素を取り入れています。
+									br
+									| 立てた目標を達成するために「日記」で日々の記録を、「スモールステップ」で小さなタスクなどを設定し「ヒストリー」で自分のスモールステップの達成度を一覧で見ることができます。
+
+									
+			
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design02.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design04.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design05.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design06.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design07.png", alt="")
+									
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design08.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design09.png", alt="")
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design10.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design11.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design12.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design13.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design14.png", alt="")
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design15.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design16.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design17.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design18.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design19.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design20.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design21.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design22.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design23.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design24.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design25.png", alt="")
+							
+							
+							
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design26.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design27.png", alt="")
+						
+						
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design28.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design29.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design30.png", alt="")
+						
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design31.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design32.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design33.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design34.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design35.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design36.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design37.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design38.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design39.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design40.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design41.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design42.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design43.png", alt="")
+							
+							
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design44.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design45.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design46.png", alt="")
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design47.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design48.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design49.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design50.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design51.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design52.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design53.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design54.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design55.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design56.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design57.png", alt="")
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design58.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design59.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design60.png", alt="")
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design61.png", alt="")
+
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design62.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design63.png", alt="")
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design64.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design65.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design66.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design67.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design68.png", alt="")
+
+
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design69.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/cittaapp01_design70.png", alt="")
+
+
+
+
+
+
+
+
+
+
+
+
+
+

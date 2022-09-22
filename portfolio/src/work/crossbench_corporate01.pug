@@ -1,0 +1,118 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/crossbench_corporate01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/crossbench_corporate01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/crossbench_corporate01_mainvisual01_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+											
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2022.02 - 2022.04
+							h2.title
+								span cross bench 公式サイト
+							
+							p.text 高槻市にあるweb制作会社のcrossbenchのコーポレートサイトを制作しました。ヴェイパーウェイブの世界観を元にページの中に色々なギミックを入れたり、わざと操作しにくいようにしている箇所などがあります。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list アートディレクション / ロゴデザイン / Webデザイン / HTML ・ CSS コーディング(担当:全体)  / JavaScript（アニメーション、ギミック） / 動画
+
+							p.link
+								a(href="https://cross-bench.com/" target="_blank")
+									span cross bench（クロスベンチ）| 関西（大阪北摂、京都、滋賀）のホームページ制作・グラフィックデザイン・映像クリエイト
+
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_image01.png", alt="")
+										span ゲームのようなロゴとヴェイパーウェイブなデザイン
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_image02.png", alt="")
+										span ドラッグやサイズ変更ができるウィンドウ
+								p.text
+									| 普通のWebサイトを作るのは面白くないということで制作したサイト。ドラッグで移動できたりサイズが変更できるウィンドウ、連打すると壊れたりスイッチ切り替えでテトリスが遊べるモニター、突然現れる猫など、とにかく自分たちが面白いと思うものを表現したサイトを制作しました。サイト内で流れている音楽についてもヴェイパーウェイブの世界観を表すために制作していただいたものを使用しています。全体をCanvasでアニメーションやエフェクト処理などを追加して制作した後、処理が重すぎるので動画に変更するなど、公開までに何度か作りなおしています。
+								p.text
+									| メインビジュアルではロゴを中心にヴェイパーウェイブを印象づけるために周りに石膏像とヤシの木を配置しています。石膏像はグリッジ効果を、ヤシの木は回転させながらサーチライトに照らされています。
+									br
+									| ロゴマークはゲームのタイトル画面のようなイメージで作成。チープさと面白さを表現することを意識しながらデザイン。既存のwebサイトにとらわれないように、とにかく自分たちが楽しいと思えるデザインを目指して制作しました。
+							
+
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_image03.png", alt="")
+										span クリックすると画面が壊れたり、テトリスが遊べる画面
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_image04.png", alt="")
+										span 下までスクロールすると猫が出てきます。右クリックはできません。
+								
+								p.text
+									| サイト全体でアニメーションを使用しています。テレビを連打すると画面が壊れたり、画像の上にマウスをホバーさせると音がなったりと、サイトを訪れた人に楽しんでもらえるように色々と面白い仕掛けを詰め込んでいます。テレビのスイッチをクリックするとテトリスが遊べるなどの隠し要素もあります。
+									
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_design02.png", alt="")
+									

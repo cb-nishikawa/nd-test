@@ -1,0 +1,108 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/rivre_wind01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/rivre_wind01_mainvisual01_pc.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/rivre_wind01_mainvisual01_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2019.07 - 2019.08
+							
+							h2.title
+								span RIVRE WIND SURFING Webサイト
+							
+							p.text 琵琶湖のバスフィッシング、セイリング、ウィンドウサーフィンなどを楽しむマリーナクラブ リブレ（RIVRE）のWIND SURFINGのWebサイトを制作しました。デザイン、コーディングを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン(全体) / HTML ・ CSS コーディング(担当:全体)  / JavaScript（canvas）
+
+							p.link
+								a(href="https://www.rivre.co.jp/wind/" target="_blank")
+									span FOR TOURIST｜REVRE in Lake Biwa.
+			
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre_wind01_image01.png", alt="")
+										span メインビジュアルで気温・湿度・風速などを表示されます
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre_wind01_image02.png", alt="")
+										span 最下部のサムネイルをクリックで画像が拡大されて表示されます
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre_wind01_image03.png", alt="")
+										span メインビジュアルからスクロールすると格子状にページが遷移します
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre_wind01_image04.png", alt="")
+										span ABOUTでは左右で別々にマスクがかかりながらアニメーションします
+								p.text
+									| 海外のwebサイトのような新しいサイトの表現を取り入れたサイト。海外の方々をモデルにすることになり、モデルさんの世界観に合わせて海外サイトのようなデザインに制作。動きもCanvasを使用してCSSでは出来ないアニメーションでページ遷移するように制作しました。
+	
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre_wind01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre_wind01_design02.png", alt="")
+						
+									

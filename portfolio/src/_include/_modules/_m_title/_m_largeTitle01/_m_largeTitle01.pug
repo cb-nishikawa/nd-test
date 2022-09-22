@@ -1,0 +1,9 @@
+mixin m-largeTitle01(tg)
+	-
+		var op = {
+			tag:       tg.tag ? tg.tag : "div",
+			baseName:  tg.baseName ? tg.baseName : "m-largeTitle01",
+			className: tg.className ? " " + tg.className : "",
+		}
+	div( class = op.baseName + op.className )
+		span.is-title!= tg.title

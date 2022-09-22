@@ -1,0 +1,124 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/hieisan_basara_lp01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual02
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/hieisan_basara_lp01_mainvisual01_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/hieisan_basara_lp01_mainvisual02_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/hieisan_basara_lp01_mainvisual03_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+
+
+				
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2021.03 - 2021.04
+							
+							h2.title
+								span 比叡山×戦国ＢＡＳＡＲＡコラボレーション
+									br
+									| デジタルスタンプラリー
+							
+							p.text 比叡山を中心に滋賀と京都の魅力を満喫しながら楽しむデジタルスタンプラリー、「比叡山×戦国ＢＡＳＡＲＡコラボレーションデジタルスタンプラリー」のWebサイトを制作しました。デザイン、コーディング、ディレクションを担当させていただきました。
+
+							p.list Webデザイン(担当:全体) / ディレクション / HTML ・ CSS コーディング(担当:全体) / JavaScript(アニメーション、Inview、スライダー)
+
+							p.link
+								a(href="http://h-basara.com/" target="_blank")
+									span 比叡山×戦国ＢＡＳＡＲＡコラボレーションデジタルスタンプラリー
+
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents//hieisan_basara_lp01_image01.png", alt="")
+										span 制作したデザインと制作に使用したメモ
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents//hieisan_basara_lp01_image02.png", alt="")
+								p.text
+									| 2週間という短納期と情報が一切ない状態から、デザインを作成。「戦国ＢＡＳＡＲＡ」の世界観を再現するために、キャラクターのセリフからキャッチコピーを考え、デジタルスタンプラリーなので、ボタンなどのパーツをデジタルな世界観に合わせ制作しました。3日ほどで大まかなデザインを完成させ、実際のWebサイトではアニメーションを追加して動きのあるサイトに仕上げました。短い納期でしたが、とても楽しく制作することができました。結果CAPCOMの担当者様の目に止まり、とても喜んでくださいました。
+							
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul.is-three
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/hieisan_basara_lp01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/hieisan_basara_lp01_design02.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/hieisan_basara_lp01_design03.png", alt="")
+						

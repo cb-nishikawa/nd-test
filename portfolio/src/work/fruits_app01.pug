@@ -1,0 +1,196 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/fruits_app01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual02
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_mainvisual01.png", alt="").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_mainvisual02.png", alt="").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_mainvisual03.png", alt="").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+
+
+
+				
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2014
+							
+							h2.title
+								span フルーツショット & バウンス
+							
+							p.text スマートフォンゲーム「フルーツショット & バウンス」を制作しました。デザインを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list UIデザイン(担当:全体 ロゴ、UI、フルーツなどの素材)　※キャラクターは外部イラストレータ制作
+
+							p.link
+								a(href="https://yoyaku-top10.jp/apps/NTk5MA?os=ios" target="_blank")
+									span フルーツショット＆バウンス
+			
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design02.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design04.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design05.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design06.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design07.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design08.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design09.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design10.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design11.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design12.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design13.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design14.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design15.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design16.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design17.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design18.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design19.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design20.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design21.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design22.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design23.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design24.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design25.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design26.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design27.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design28.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design29.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design30.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design31.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design32.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design33.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design34.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design35.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design36.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design37.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design38.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design39.png", alt="")
+						ul.is-four
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design40.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design41.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/fruits_app01_design42.png", alt="")

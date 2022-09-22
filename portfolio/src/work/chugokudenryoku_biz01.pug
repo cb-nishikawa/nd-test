@@ -1,0 +1,61 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/chugokudenryoku_biz01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/chugokudenryoku_biz01_mainvisual01.png", alt="")
+							
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2020
+							
+							h2.title
+								span 中国電力 法人向けWEBサイト
+							
+							p.text 中国電力 法人向けWEBサイトのWebサイトを制作しました。HTML ・ CSS コーディング / JavaScriptを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list HTML ・ CSS コーディング / JavaScript
+
+							p.link
+								a(href="https://biz.energia.co.jp/" target="_blank")
+									span ぐっと ずっと。Biz: 中国電力 法人向けWEBサイト
+			
+

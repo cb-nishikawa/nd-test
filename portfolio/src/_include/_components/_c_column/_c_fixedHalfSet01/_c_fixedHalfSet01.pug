@@ -1,0 +1,12 @@
+mixin c-fixedHalfSet01(tg)
+	-
+		var op = {
+			tag:       tg.tag ? tg.tag : "div",
+			baseName:  tg.baseName ? tg.baseName : "c-fixedHalfSet01",
+			className: tg.className ? " " + tg.className : " " + "is-contentsRight",
+		}
+
+	#{op.tag}( class = op.baseName + op.className )
+		.componentWrapper
+			block
+		

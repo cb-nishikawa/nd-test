@@ -1,0 +1,89 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/innocent01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/innocent01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/innocent01_mainvisual01_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+
+
+				
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2022.03 - 2022.04
+							
+							h2.title
+								span 結婚相談所「イノセント」 Webサイト
+							
+							p.text 戦略とサポートで成婚へ導く結婚相談所「イノセント」のWebサイトを制作させていただきました。デザイン、コーディングを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン（TOP） / HTML ・ CSS コーディング（TOP）
+
+							p.link
+								a(href="https://innocent-bridal.com/" target="_blank")
+									span 戦略とサポートで成婚へ導く結婚相談所「イノセント」
+			
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/innocent01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/innocent01_design02.png", alt="")
+						
+									

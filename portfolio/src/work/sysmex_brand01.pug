@@ -1,0 +1,64 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/sysmex_brand01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/sysmex_brand01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+							
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2019.08 - 2019.09
+							
+							h2.title
+								span Sysmex ブランドコンセプトページ
+							
+							p.text 京都市左京区にある表現の総合大学、京都精華大学のWebサイトを制作しました。Topページのアニメーション、ローディングページを担当しました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list HTML ・ CSS コーディング(担当:TOP)  / JavaScript（Canvas）
+
+							p.link
+								a(href="https://www.sysmex.co.jp/corporate/philosophy_brand/brand/concept.html" target="_blank")
+									span シスメックス株式会社 ブランドコンセプト | Sysmex
+			

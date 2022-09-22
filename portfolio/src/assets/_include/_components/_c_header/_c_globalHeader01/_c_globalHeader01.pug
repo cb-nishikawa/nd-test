@@ -1,0 +1,17 @@
+mixin c-globalHeader01
+	header.c-headerSet01
+		+l-mqWrapper({tag:"div"})
+			.componentWrapper
+				.block.is-logo
+					a(href="/") 
+						h1.logo
+							img(src= pageOption.RELATIVE_PATH + "assets/images/common/common_logo01.svg", alt="")
+							span.is-eye.is-left
+							span.is-eye.is-right
+				//- .block.is-nav
+				//- 	+l-contentsWidth({tag:"div"})
+				//- 		.area.is-nav
+				//- 			ul
+				//- 				li
+				//- 					a(href="")
+				//- 						span ABOUT

@@ -1,0 +1,83 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/heart01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/heart01_mainvisual01.mp4") 
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2015
+							
+							h2.title
+								span 株式会社ハート Webサイト
+							
+							p.text 楽しいお菓子を企画・開発・販売している株式会社ハートのWebサイトを制作しました。デザイン、コーディングを担当させていただきました。
+								br
+								| イラストレーターさんに作成いただいたイラストをもとに、お菓子の世界観を表現した楽しいWebサイトを制作しました。制作にあたって実際に販売されているお菓子のリサーチなどをしてデザインのイメージを自分の中で膨らませました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン(TOP、下層共通ページ) / HTML ・ CSS コーディング(担当:CMS組み込み用DOM)
+
+							p.link
+								a(href="https://heart-ltd.jp/" target="_blank")
+									span 株式会社ハート
+			
+
+				
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/heart01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/heart01_design02.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/heart01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/heart01_design04.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/heart01_design05.png", alt="")

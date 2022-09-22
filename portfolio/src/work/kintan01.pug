@@ -1,0 +1,91 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/kintan01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/kintan01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+
+				
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2020.12 - 2020.01
+							
+							h2.title
+								span KINTANオフィシャルサイト
+							
+							p.text 都心の街で焼肉・しゃぶしゃぶ・ステーキ・肉割烹、さまざまなお肉の楽しみ方をお届けするKINTANのオフィシャルサイトのWebサイトを制作しました。TOPページのアニメーションとSTORYページのアニメーションを担当しました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list HTML ・ CSS コーディング(担当:TOP)  / JavaScript（Canvas）
+
+							p.link
+								a(href="https://kintan.restaurant/" target="_blank")
+									span KINTAN | 焼肉・しゃぶしゃぶ・ステーキ・肉割烹
+			
+
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/kintan01_image01.png", alt="")
+										span ①ロゴが左から出てくる
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/kintan01_image02.png", alt="")
+										span ②右から振り子のような動きをしながら背景が表示
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/kintan01_image03.png", alt="")
+										span ③背景が左に移動しながら次のスライドの画像が縮小しながら表示
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/kintan01_image04.png", alt="")
+										span ④マスクが振り子のように移動することで次のスライドに切り替わる
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/kintan01_image05.png", alt="")
+										span 右から左にマスクが移動。左右2枚の画像が連動するようにマスク移動
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/kintan01_image06.png", alt="")
+										span 文字や背景がフェードイン、パララックスなどの効果で表示
+								
+								

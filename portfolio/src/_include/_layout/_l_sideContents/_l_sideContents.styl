@@ -1,0 +1,39 @@
+//- サイドエリア
+.l-sideWrappar
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	max-width PC_RES_WID01
+	width 100%
+	margin 0 auto
+	box-sizing border-box
+
+	+MQ_MAX(PC_RES_WID01)
+		padding 0 10px
+	+MQ_MAX(SP_RES_WID01)
+		width auto
+		padding 0 15px
+		
+
+	&.is-left
+		.l-sideContents
+			order 0
+			+MQ_MAX(SP_RES_WID01)
+				order 2
+	&.is-right
+		.l-sideContents
+			order 2
+	
+	.l-sideContents
+		order 2
+		width 200px
+		background-color #DFDFDF
+		+MQ_MAX(SP_RES_WID01)
+			width 100%
+			order 0
+
+	.l-mainContents
+		width calc(100% - 240px)
+		margin 0
+		+MQ_MAX(SP_RES_WID01)
+			width 100%

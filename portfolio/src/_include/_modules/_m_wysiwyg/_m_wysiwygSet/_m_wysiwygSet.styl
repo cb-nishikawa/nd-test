@@ -1,0 +1,36 @@
+.m-wysiwygSet
+	&>*
+		margin-bottom 10px
+		&:last-child
+			margin-bottom 0
+	a
+		text-decoration underline
+		iconSet()
+		
+		&:hover
+			text-decoration none
+
+	blockquote
+		padding 15px
+		font-style italic
+		background-color #EDF0F3
+
+	ul, ol
+		margin-left 30px
+		
+	ul
+		&>li
+			list-style disc
+	ol
+		&>li
+			list-style decimal
+
+	table
+		@extend .m-table01
+	
+	// h2
+	// 	@extend .column-title
+	// h3
+	// 	@extend .sub-title
+	// h4
+	// 	@extend .mini-title

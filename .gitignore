@@ -1,4 +1,7 @@
 /nintendo-kadai/node_modules
 /nintendo-kadai/dist
-/docs
+/portfolio/node_modules
+/portfolio/docs
+/portfolio/src/assets/movie/
+/portfolio/pdf/
 /src/assets/video

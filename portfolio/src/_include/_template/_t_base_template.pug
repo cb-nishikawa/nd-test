@@ -1,0 +1,49 @@
+doctype html
+include /_include/_settings/_pug/_s_variables
+include /_include/_settings/_pug/_s_mixin
+
+block vars
+
+html(lang="ja" class= "is-" + pageOption.KEY)
+	head
+		include /_include/_settings/_pug/_s_head
+
+	body#l-contentsBody
+		main#l-contentsTop
+			//- ヘッダー （pageOptionのHEADERがtrueのとき） ----------------------
+			if pageOption.HEADER
+				.l-contentsHeader
+					
+					//- ヘッダー ----------------------
+					block header
+
+			.l-contentsBody
+				.l-contentsWrapper
+					if pageOption.TOP_CONTENTS == true
+						.l-topContents
+							block topContents
+
+					//- サイドエリア（pageOptionのSIDEがtrueのとき） ----------------------
+					if pageOption.SIDE[0] == true
+						
+						.l-sideWrappar(class = (pageOption.SIDE[1] == "left" ? "is-left" : "is-right") )
+							aside.l-sideContents
+								block side
+							.l-mainContents
+								block contents
+						
+
+					else
+						.l-mainContents
+							//- メインコンテンツ ----------------------
+							block contents
+					
+					if pageOption.BOTTOM_CONTENTS == true
+						.l-bottomContents
+							block bottomContents
+
+				//- フッター （pageOptionのFOOTERがtrueのとき） ----------------------
+				if pageOption.FOOTER
+					.l-contentsFooter
+						//- フッター ----------------------
+						block footer

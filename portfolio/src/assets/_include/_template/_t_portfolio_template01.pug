@@ -1,0 +1,40 @@
+doctype html
+include /_include/_settings/_pug/_s_variables
+include /_include/_settings/_pug/_s_mixin
+include /assets/_include/_settings/_pug/_s_mixin
+
+block vars
+
+html(lang="ja" class= "is-" + pageOption.KEY)
+	head
+		include /_include/_settings/_pug/_s_head
+
+	body#l-contentsBody
+
+		#l-contentsFrame
+			main#l-contentsTop
+				if pageOption.HEADER
+					.l-contentsHeader
+						
+						//- ヘッダー ----------------------
+						block header
+
+				.l-contentsBody
+					.l-contentsWrapper
+						if pageOption.TOP_CONTENTS == true
+							.l-topContents
+								block topContents
+
+						.l-mainContents
+							//- メインコンテンツ ----------------------
+							block contents
+						
+						if pageOption.BOTTOM_CONTENTS == true
+							.l-bottomContents
+								block bottomContents
+
+				//- フッター （pageOptionのFOOTERがtrueのとき） ----------------------
+				if pageOption.FOOTER
+					.l-contentsFooter
+						//- フッター ----------------------
+						block footer

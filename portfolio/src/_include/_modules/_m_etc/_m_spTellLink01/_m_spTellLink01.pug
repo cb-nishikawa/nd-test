@@ -1,0 +1,11 @@
+mixin m-spTellLink01(tg)
+	-
+		var op = {
+			tel:       tg.tel ? tg.tel : "",
+			className: tg.className ? " " + tg.className : "",
+			baseName:  tg.baseName ? tg.baseName : "m-spTellLink01",
+		}
+	
+	a(href= "tel:"+op.tel class= op.baseName + op.className).js-tellLink
+		span
+			block

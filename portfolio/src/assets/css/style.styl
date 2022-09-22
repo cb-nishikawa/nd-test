@@ -1,0 +1,430 @@
+@charset "utf-8"
+@import "../../_include/_settings/_stylus/_s_reset"
+@import "../../_include/_settings/_stylus/_s_config"
+@import "../../_include/_settings/_stylus/_s_mixin"    
+@import "../../_include/_settings/_stylus/_s_base"
+
+PC_RES_WID01 = 1200px
+
+@import "../../_include/_vendor/*/*"
+@import "../../_include/_layout/*/*"
+@import "../../assets/_include/_components/*/*"
+
+HEADER_PADDING = 100px
+
+.l-contentsBody
+	padding-bottom 100px
+
+.c-topListSet01
+	padding-top HEADER_PADDING
+	.componentWrapper
+		.block.is-list
+			.l-contentsWidth
+				ul
+					display flex
+					flex-wrap wrap
+					// justify-content space-between
+					
+					
+					li
+						// width calc(50% - 2px)
+						// width calc(33.3% - 2px)
+						width calc(20% - 2px)
+						margin-right 2px
+
+
+						// &:nth-of-type(n+4)
+						// 	margin-top 10px
+						&:nth-of-type(n+6)
+							margin-top 10px
+
+						a
+							display block
+							width 100%
+							color inherit
+							text-decoration none
+
+							&:hover
+								span
+									&:first-child
+										&:before
+											opacity 1.0
+							
+							img
+								width 100%
+								height auto
+							
+							span
+								display block
+								fontSize(12)
+								&:first-child
+									position relative
+									&:before
+										opacity 0
+										content ""
+										position absolute
+										top 0
+										left 0
+										width 100%
+										height 100%
+										background-color rgba(0, 0, 0, 0.2)
+										transition all 0.3s ease
+								& + span
+									margin-top 10px
+
+
+
+.c-workDetailSet01
+	
+	.componentWrapper
+		.block.is-mainvisual
+			position relative
+			padding-top HEADER_PADDING
+			// background-color #F00
+			background-position center
+			background-size cover
+
+			.area.is-mainvisual
+				position relative
+				width 80%
+				margin 0 auto
+				padding-top 50.5%
+
+				.m-workDetailSet01_mainvisual01
+					position absolute
+					bottom 0
+					left 0
+					width 80%
+					padding-top 63%
+
+
+				.m-workDetailSet01_mainvisual02
+					position absolute
+					bottom 0
+					right 0
+					width 22%
+					padding-top 49%
+				
+
+			.area.is-mainvisual02
+				display flex
+				justify-content space-between
+				// position relative
+				width 80%
+				margin 0 auto
+				// padding-top 50.5%
+
+				.m-workDetailSet01_mainvisual02
+					position relative
+					width 30%
+					padding-top 69%
+			
+			.area.is-mainvisual03
+				position relative
+				width 80%
+				margin 0 auto
+				padding-top 50.5%
+
+				.m-workDetailSet01_mainvisual01
+					position absolute
+					bottom 0
+					left 10%
+					width 80%
+					padding-top 63%
+
+
+			&:after
+				content ""
+				display block
+				position absolute
+				width 100%
+				padding-top 50px
+				bottom 0
+				left 0
+				background-color #F8F8F8
+				z-index 0
+			
+			.l-contentsWidth
+				position relative
+				z-index 100
+
+		.block.is-contents
+			padding-top 10px
+			padding-bottom 120px
+			background-color #F8F8F8
+
+			+MQ_MAX(SP_RES_WID01)
+				padding-bottom 60px
+
+			.area.is-title
+				margin-bottom 80px
+
+				+MQ_MAX(SP_RES_WID01)
+					margin-bottom 40px
+
+				&:last-child
+					margin-bottom 0
+
+				.date
+					display table
+					margin-bottom 30px
+					padding 8px
+					color #666666
+					background-color #FFFFFF
+					fontSize(14)
+					line-height 1.0
+
+					+MQ_MAX(SP_RES_WID01)
+						margin-bottom 15px
+						fontSize(12)
+
+				.link
+					margin-bottom 3px
+					line-height 1.0
+					a
+						color #999999
+						fontSize(14)
+						text-decoration none
+
+						+MQ_MAX(SP_RES_WID01)
+							fontSize(12)
+				
+				.title
+					margin-bottom 20px
+					fontSize(24)
+					font-weight bold
+					line-height 1.2
+
+					+MQ_MAX(SP_RES_WID01)
+						margin-bottom 10px
+						fontSize(16)
+				
+				.text
+					margin-bottom 50px
+					fontSize(16)
+
+					+MQ_MAX(SP_RES_WID01)
+						margin-bottom 30px
+						fontSize(13)
+				
+				.subTitle
+					margin-bottom 15px
+					fontSize(14)
+					font-weight bold
+					line-height 1.0
+
+					+MQ_MAX(SP_RES_WID01)
+						fontSize(12)
+				
+				.list
+					margin-bottom 50px
+					fontSize(14)
+
+					&:last-child
+						margin-bottom 0
+
+					+MQ_MAX(SP_RES_WID01)
+						margin-bottom 30px
+						fontSize(12)
+
+			.area.is-details
+				background-color #F8F8F8
+
+				.box.is-detail
+					margin-bottom 40px
+
+					+MQ_MAX(SP_RES_WID01)
+						margin-bottom 20px
+
+					&:last-child
+						margin-bottom 0
+				
+				.image
+					display flex
+					flex-wrap wrap
+					justify-content center
+					margin-bottom 20px
+					padding 30px 0
+					background-color #F2F2F2
+
+					+MQ_MAX(SP_RES_WID01)
+						margin-bottom 10px
+						padding 10px 0
+
+					&>span
+						display block
+						width calc(45% - 2px)
+						margin 0 1px
+
+						&:nth-of-type(n + 3)
+							margin-top 15px
+
+						+MQ_MAX(SP_RES_WID01)
+							width calc(48% - 2px)
+						
+
+						&>span
+							display block
+							margin-top 5px
+							fontSize(13)
+							text-align center
+
+							+MQ_MAX(SP_RES_WID01)
+								fontSize(11)
+
+
+						img
+							width 100%
+							height auto
+				
+				.text
+					fontSize(14)
+
+					+MQ_MAX(SP_RES_WID01)
+						fontSize(12)
+
+
+
+	.m-workDetailSet01_mainvisual01
+		background-image url(../images/contents/works_detail_mainvisual_display01.png)
+		background-repeat no-repeat
+		background-size contain
+		
+		.moduleWrapper
+			position absolute
+			top 6%
+			left 50%
+
+			width 91.5%
+			height 0
+			padding-top 50.5%
+
+			transform translate3d(-50%, 0, 0)
+
+			span
+				display block
+				position absolute
+				top 0
+				left 0
+				width 100%
+				height 100%
+
+				img, video
+					width 100%
+					height auto
+
+	
+	.m-workDetailSet01_mainvisual02
+		
+		
+		width 22%
+		padding-top 49%
+		.moduleWrapper
+			position absolute
+			top 0
+			left 0
+			width 100%
+			height 100%
+
+			span
+				display block
+				position absolute
+
+				&.is-frame
+					top 0
+					left 0
+					width 100%
+					height 100%
+					
+					background-image url(../images/contents/works_detail_mainvisual_display01_sp.png)
+					background-repeat no-repeat
+					background-size contain
+					z-index 100
+
+				&.is-image
+					z-index 0
+					top 7.0%
+					left 50%
+
+					width 91.5%
+					height 0
+					padding-top 199.5%
+
+					transform translate3d(-50%, 0, 0)
+
+					.mask
+						position absolute
+						top 0
+						left 0
+						width 100%
+						height auto
+						-webkit-clip-path url(#svgPath)
+						clip-path url(#svgPath)
+
+					.shape
+						position absolute
+						top 0
+						left 0
+						width 100%
+						height 100%
+
+
+
+.c-workDesignSet01
+	padding 120px 0 0
+
+	+MQ_MAX(SP_RES_WID01)
+		padding 60px 0 0
+
+	.componentWrapper
+		.block.is-list
+			ul
+				display flex
+				flex-wrap wrap
+				justify-content space-between
+
+				margin-bottom 100px
+
+				+MQ_MAX(SP_RES_WID01)
+					margin-bottom 40px
+
+				&:last-child
+					margin-bottom 0
+				
+				li
+					width calc(50% - 2px)
+
+					img
+						width 100%
+						height auto
+
+
+				&.is-three
+					justify-content: flex-start
+					
+					li
+						width calc(33.3% - 3px)
+						margin-right 3px
+						margin-bottom 3px
+
+						&:nth-of-type(3n)
+							margin-right 0
+
+					img
+						width 100%
+						height auto
+				
+				&.is-four
+					justify-content: flex-start
+					
+					li
+						width calc(25% - 3px)
+						margin-right 3px
+						margin-bottom 3px
+
+						&:nth-of-type(4n)
+							margin-right 0
+
+					img
+						width 100%
+						height auto

@@ -1,0 +1,47 @@
+
+//- link(rel= "canonical", href=pageOption.DOMAIN + pageOption.URL)
+
+meta(charset= "utf-8")
+meta(http-equiv= "X-UA-Compatible", content="IE=edge")
+meta(name= "viewport", content="width=device-width, minimum-scale=0.5 , maximum-scale=2")
+meta(name= "format-detection", content="telephone=no")
+
+title #{pageOption.TITLE}
+
+meta(content= pageOption.DESCRIPTION, name="description")
+meta(content= pageOption.KEYWORDS, name="keywords")
+meta(content= pageOption.TITLE, property="og:title")
+meta(content= pageOption.DESCRIPTION, property="og:description")
+meta(content= (pageOption.KEY == "home" ? "website" : "article"), property="og:type")
+meta(content= "ja_JP", property="og:locale")
+meta(name="og:image" content= pageOption.RELATIVE_PATH+"assets/images/common/ogp.jpg")
+
+meta(name="robots" content="noindex,nofollow,noarchive")
+
+link(rel="stylesheet", href= pageOption.RELATIVE_PATH+"assets/css/style.css" + "?rev")
+link(rel="shortcut icon" href= pageOption.RELATIVE_PATH+"assets/images/common/favicon.ico" + "?rev")
+link(rel="apple-touch-icon" href= pageOption.RELATIVE_PATH+"assets/images/common/webclip.jpg" + "?rev")
+
+link(rel="preconnect" href="https://fonts.googleapis.com")
+link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+link(href="https://fonts.googleapis.com/css2?family=Bungee&family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet")
+
+//- script(src= pageOption.RELATIVE_PATH+"assets/js/library/pixi.min.js" + "?rev")
+//- script(src= pageOption.RELATIVE_PATH+"assets/js/library/pixi-filters.js" + "?rev")
+//- script(src= pageOption.RELATIVE_PATH+"assets/js/library/TweenMax.min.js" + "?rev")
+script(src= pageOption.RELATIVE_PATH+"assets/js/library/jquery-3.5.1.min.js" + "?rev")
+script(src= pageOption.RELATIVE_PATH+"assets/js/library/jquery-ui.min.js" + "?rev")
+block library
+
+script(src= pageOption.RELATIVE_PATH+"assets/js/vendor.js" + "?rev")
+script(src= pageOption.RELATIVE_PATH+"assets/js/function.js" + "?rev")
+
+
+.
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P5SCKC');</script>
+    <!-- End Google Tag Manager -->

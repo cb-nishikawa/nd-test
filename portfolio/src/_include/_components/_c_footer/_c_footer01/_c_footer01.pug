@@ -1,0 +1,93 @@
+mixin c-footer01
+	footer.c-footer01
+		.navBlock
+			+l-contentsWidth({tag:"div"})
+				nav.footerNav
+					+l-colSet01({className: "is-six js-footer01"})
+						li
+							.parentNav
+								a(href=pageOption.RELATIVE_PATH + pageURL.TOP)
+									span トップ
+						li
+							.parentNav
+								a(href=pageOption.RELATIVE_PATH + pageURL.SAMPLE_TOP)
+									span サンプルページ
+								.spParentBtn
+							.childNav
+								ul
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.SAMPLE_BASE)
+											span ベース
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.SAMPLE_SIDE)
+											span サイドナビ
+						li
+							.parentNav
+								a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_TOP)
+									span モジュール
+								.spParentBtn
+							.childNav
+								ul
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_TEXT)
+											span テキスト・リンク
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_TITLE)
+											span タイトル
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_LIST)
+											span リスト・テーブル
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_BTN)
+											span ボタン
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_FORM)
+											span フォーム
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_IMAGE)
+											span 画像
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_ETC)
+											span パンくず・その他
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_WYSIWYG)
+											span wysiwyg
+						li
+							.parentNav
+								a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_TOP)
+									span コンポーネント
+								.spParentBtn
+							.childNav
+								ul
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_HEADER)
+											span ヘッダー
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_FOOTER)
+											span フッター
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_COLUMN)
+											span カラム
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_BTN)
+											span ボタン
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_NEWS)
+											span ニュース
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_QANDA)
+											span 質問・FAQ
+									li
+										a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_MAINVISUAL)
+											span メインビジュアル
+						li
+							.parentNav
+								a(href=pageOption.RELATIVE_PATH + pageURL.JAVASCRIPT_TOP)
+									span Javascript
+						li
+							.parentNav
+								a(href=pageOption.RELATIVE_PATH + pageURL.ANIMATION_TOP)
+									span アニメーション
+		.copyBlock
+			+l-contentsWidth({tag:"div"})
+				p copyright xxxxxxxxxxxxxxxxxxxxxxx

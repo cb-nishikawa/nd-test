@@ -1,0 +1,29 @@
+.m-borderLeftTitle01
+	position relative
+	margin-bottom 30px
+	padding-left 10px
+	
+	
+	span
+		margin-right 10px
+		font-weight bold
+		line-height 1.0
+	
+	+MQ_MAX(SP_RES_WID01)
+		margin-bottom 20px
+
+	&:before
+		content: ""
+		position absolute
+		top 0
+		left 0
+		display block
+		width 3px
+		height 100%
+		background-color #CCC
+
+	&.is-center
+		text-align center
+
+	&:last-child
+		margin-bottom 0

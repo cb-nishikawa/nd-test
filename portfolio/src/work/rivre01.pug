@@ -1,0 +1,86 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/rivre01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										img(src=pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_mainvisual01.png", alt="")
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2016
+							
+							h2.title
+								span RIVRE 公式サイト
+							
+							p.text 琵琶湖のバスフィッシング、セイリング、ウィンドウサーフィンなどを楽しむマリーナクラブ リブレ（RIVRE）の公式サイトを制作しました。デザイン、コーディングを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン（担当:全体） / HTML ・ CSS コーディング(担当:全体) /  JavaScript
+
+							p.link
+								a(href="https://www.rivre.co.jp/" target="_blank")
+									span 琵琶湖でセイリング、バス釣り、ヨット アクタスならリブレ（RIVRE）
+			
+
+			
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_design02.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_design04.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_design05.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/rivre01_design06.png", alt="")
+						

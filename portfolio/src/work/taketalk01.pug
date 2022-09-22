@@ -1,0 +1,77 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/taketalk01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_mainvisual01.png", alt="")
+							
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2017
+							
+							h2.title
+								span 小学生・中学生向け 英語スクール TAKETALK
+							
+							p.text 小学生・中学生向け 英語スクール TAKETALKのWebサイトを制作しました。デザイン、HTML ・ CSS コーディング、JavaScriptを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン（全体） / HTML ・ CSS コーディング(担当:全体) / JavaScript
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_design02.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_design04.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_design05.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/taketalk01_design06.png", alt="")

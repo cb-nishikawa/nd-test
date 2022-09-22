@@ -1,0 +1,171 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/withglico01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/withglico01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_mainvisual01.gif", alt="")
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2020.12 - 2021.05
+							
+							h2.title
+								span with Glico Webサイト
+							
+							p.text Glicoの会員コミュニティ「with Glico」のWebサイトを制作しました。トップページ以外のデザイン、コーディング、JavaScriptプログラミングを担当させていただきました。また、管理画面のUIについてのデザイン、コーディング、JavaScriptプログラミングも担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン(全体)/ HTML ・ CSS コーディング(担当:全体)  / JavaScript　※フロントページのTOP、じゃんけんページ等のデザインは別会社が制作
+
+							p.link
+								a(href="https://with.glico.com/" target="_blank")
+									span with Glico
+			
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_image01.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_image02.png", alt="")
+								p.text
+									| ロゴデザイン、3d素材、デザイン仕様書を元にデザインを展開。トップページ以外のほぼすべてのページのデザインとCMSで使用するDOM（HTML、CSS、JavaScript）を制作しました。
+									br
+									| 開発チーム全体でのコーディング仕様書の作成などについても担当しました。
+							
+
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_image03.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_image04.png", alt="")
+								
+								p.text
+									| デザイン仕様書から世界観に合わせてデザインを作成。数値の桁や文字数によってページが崩れたりしないかなど、CMSで実装された後お客様が使用されるときのことも考慮しながらデザインを作成しました。
+
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_image05.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_image06.png", alt="")
+								
+								p.text
+									| 100ページ以上のデータを用意する必要があるので、パーツをモジュール・コンポーネント単位で分割。コーディングで展開するなどして対応しました。
+
+											
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design02.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design04.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design05.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design06.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design07.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design08.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design09.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design10.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design11.png", alt="")
+
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design12.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design13.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design14.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design15.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design16.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design17.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design18.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design19.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design20.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design21.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design22.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design23.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design24.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design25.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/withGlico01_design26.png", alt="")
+							

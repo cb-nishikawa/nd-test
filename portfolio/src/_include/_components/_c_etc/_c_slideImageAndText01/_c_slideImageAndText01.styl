@@ -1,0 +1,56 @@
+
+$contentsBlock
+	display flex
+
+
+$imageArea
+	overflow hidden
+	width 50%
+	height 400px
+	border-radius 10px
+	
+	.box
+		&.is-slideImage
+			width 100%
+			height 400px
+			background-repeat no-repeat
+			background-position center
+			background-size cover
+			
+
+$textArea
+	width 50%
+	height 400px
+	padding 20px
+	box-sizing border-box
+
+	.dot
+		display flex
+		position absolute
+		bottom 10px
+		left 50%
+		transform translate3d(-50%, 0, 0)
+		
+		li.is-dot
+			cursor pointer
+			width 30px
+			height 8px
+			margin 0 5px
+			background-color #DFDFDF
+			border-radius 10px
+			&.is-current
+				background-color #AFAFAF
+
+.c-slideImageAndText01
+	&>.componentWrapper
+		&>.group.is-contents
+			&>ul
+				&>li
+					&>.block
+						&.is-contents
+							@extend $contentsBlock
+						&>.area
+							&.is-image
+								@extend $imageArea
+							&.is-text
+								@extend $textArea

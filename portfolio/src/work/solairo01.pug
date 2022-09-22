@@ -1,0 +1,137 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/solairo01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/solairo01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+							.m-workDetailSet01_mainvisual02
+								.moduleWrapper
+									span.is-frame
+									span.is-image
+										//- img(src="https://placehold.jp/400x860.png", alt="").mask
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/solairo01_mainvisual01_sp.mp4").mask
+										.
+											<svg class="shape">
+												<clipPath id="svgPath" clipPathUnits="objectBoundingBox">
+													<path transform="scale(0.0043, 0.00205)" d="M0,0H233.731a0,0,0,0,1,0,0V458.437a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z"/>
+												</clipPath>
+											</svg>
+
+
+				
+
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2022.04 - 2022.05
+							
+							h2.title
+								span マツオカそらいろクリニック Webサイト
+							
+							p.text 神戸市東灘区にあるマツオカそらいろクリニックのWebサイトを制作しました。デザイン、コーディングを担当させていただきました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list Webデザイン（担当:全体） / HTML ・ CSS コーディング(担当:全体)
+
+							p.link
+								a(href="https://www.solairo-clinic.com/" target="_blank")
+									span マツオカそらいろクリニック｜咳の専門的治療｜神戸市東灘区
+
+
+	section.c-workDesignSet01
+		.componentWrapper
+			.block.is-list
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design01.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design02.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design03.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design04.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design05.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design06.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design07.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design08.png", alt="")
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design09.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design10.png", alt="")
+						
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design11.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design12.png", alt="")
+						
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design13.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design14.png", alt="")
+						
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design15.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design16.png", alt="")
+						
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design17.png", alt="")
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design18.png", alt="")
+						
+						ul
+							li
+								img(src= pageOption.RELATIVE_PATH + "assets/images/contents/sorairo01_design19.png", alt="")

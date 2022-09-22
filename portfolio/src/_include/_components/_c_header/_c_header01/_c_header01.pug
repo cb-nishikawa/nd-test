@@ -1,0 +1,117 @@
+mixin c-header01(tg)
+	-
+		var op = {
+			tag:       tg.tag ? tg.tag : "header",
+			baseName:  tg.baseName ? tg.baseName : "c-header01",
+			className: tg.className ? tg.className : "",
+		}
+	#{op.tag}( class = op.baseName + " " + op.className )
+		.group.is-main
+			.block.is-logo
+				h1.logo
+					span
+						img(src="https://placeimg.com/200/70/animals", alt="")
+			.block.is-spBtn.js-header01spBtn
+				span
+				span
+				span
+			.block.is-nav.js-header01spMenu
+				.area.is-subNav
+					.m-inputText01
+						input(type="text")
+					nav.subNav
+						ul
+							li
+								a(href="")
+									span サブナビ
+							li
+								a(href="")
+									span サブナビ
+							
+				.area.is-globalNav
+					nav.globalNav
+						ul
+							li
+								a(href=pageOption.RELATIVE_PATH + pageURL.TOP)
+									span トップ
+							li
+								a(href=pageOption.RELATIVE_PATH + pageURL.SAMPLE_TOP)
+									span サンプルページ
+								.childNav
+									+l-contentsWidth({tag:"div"})
+										+l-colSet01({className: "is-six"})
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.SAMPLE_BASE)
+													span ベース
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.SAMPLE_SIDE)
+													span サイドナビ
+							li
+								a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_TOP)
+									span モジュール
+								.childNav
+									+l-contentsWidth({tag:"div"})
+										+l-colSet01({className: "is-six"})
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_TEXT)
+													span テキスト・リンク
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_TITLE)
+													span タイトル
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_LIST)
+													span リスト・テーブル
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_BTN)
+													span ボタン
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_FORM)
+													span フォーム
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_IMAGE)
+													span 画像
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_ETC)
+													span パンくず・その他
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.MODULE_WYSIWYG)
+													span wysiwyg
+											
+							li
+								a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_TOP)
+									span コンポーネント
+								.childNav
+									+l-contentsWidth({tag:"div"})
+										+l-colSet01({className: "is-six"})
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_HEADER)
+													span ヘッダー
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_FOOTER)
+													span フッター
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_COLUMN)
+													span カラム
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_BTN)
+													span ボタン
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_NEWS)
+													span ニュース
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_QANDA)
+													span 質問・FAQ
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_MAINVISUAL)
+													span メインビジュアル
+											li
+												a(href=pageOption.RELATIVE_PATH + pageURL.COMPONENT_ETC)
+													span その他
+											
+							li
+								a(href=pageOption.RELATIVE_PATH + pageURL.JAVASCRIPT_TOP)
+									span Javascript
+							li
+								a(href=pageOption.RELATIVE_PATH + pageURL.ANIMATION_TOP)
+									span アニメーション
+							

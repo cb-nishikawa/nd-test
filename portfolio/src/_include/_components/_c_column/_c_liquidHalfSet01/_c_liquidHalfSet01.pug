@@ -1,0 +1,12 @@
+mixin c-liquidHalfSet01(tg)
+	-
+		var op = {
+			tag:       tg.tag ? tg.tag : "div",
+			baseName:  tg.baseName ? tg.baseName : "c-liquidHalfSet01",
+			className: tg.className ? " " + tg.className : " " + "is-contentsLeft",
+		}
+
+	#{op.tag}( class = op.baseName + op.className )
+		.componentWrapper
+			block
+		

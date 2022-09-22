@@ -1,0 +1,94 @@
+
+extends /assets/_include/_template/_t_portfolio_template01.pug
+
+block vars
+	-
+		var pageOption = {
+			KEY: "works",
+			URL: '',
+			RELATIVE_PATH: '../',
+			TITLE: '',
+			DESCRIPTION: '',
+			KEYWORDS: '',
+			SIDE: [false, "left"],
+			HEADER: true,
+			FOOTER: false,
+			TOP_CONTENTS: false,
+			BOTTOM_CONTENTS: false,
+		}
+
+
+//- ヘッダー
+block header
+	+c-globalHeader01
+		
+//- コンテンツ　
+block contents
+	section.c-workDetailSet01
+		.componentWrapper
+			.block.is-mainvisual(style="background-image: url('../assets/images/contents/seika01_mainvisual_bg01.png')")
+				+l-mqWrapper({tag:"div"})
+					+l-contentsWidth({tag:"div"})
+						.area.is-mainvisual03
+							.m-workDetailSet01_mainvisual01
+								.moduleWrapper
+									span
+										//- img(src="https://placehold.jp/1200x660.png", alt="")
+										video(loop="" muted autoplay="" playsinline="" src= pageOption.RELATIVE_PATH + "assets/movie/seika01_mainvisual01.mp4") 
+										//- img(src= pageOption.RELATIVE_PATH + "assets/images/contents/crossbench_corporate01_mainvisual01.gif", alt="")
+							
+
+
+			.block.is-contents
+				.area.is-title
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							p.date
+								span 2020.11
+							
+							h2.title
+								span 京都精華大学 Webサイト
+							
+							p.text 京都市左京区にある表現の総合大学、京都精華大学のWebサイトを制作しました。Topページのアニメーション、ローディングページを担当しました。
+
+							h3.subTitle
+								span 担当業務
+							
+							p.list JavaScript（Canvas）
+
+							p.link
+								a(href="https://www.kyoto-seika.ac.jp/" target="_blank")
+									span 京都精華大学
+			
+
+				.area.is-details
+					+l-mqWrapper({tag:"div"})
+						+l-contentsWidth({tag:"div"})
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image01.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image02.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image03.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image04.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image05.png", alt="")
+								p.text
+									| デザインのイメージを元に、インクのようなローディングアニメーションをCanvasを使用して制作しました。元になっているデザインをCanvasの二時曲線を使用して作成し、領域が塗りつぶされるようにアニメーションするように実装しています。
+							
+
+							.box.is-detail
+								p.image
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image06.png", alt="")
+									span
+										img(src= pageOption.RELATIVE_PATH + "assets/images/contents/seika01_image07.png", alt="")
+								
+								p.text
+									| TOPのメインビジュアルではマウスに合わせて円が広がるものを実装。マスクされたアルファベットの上にマウスがホバーしたところから外側に円が広がってメインビジュアルが表示されるように実装。
+									
+
+	

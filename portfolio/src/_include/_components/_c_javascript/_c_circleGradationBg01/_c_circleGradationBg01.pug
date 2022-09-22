@@ -1,0 +1,13 @@
+mixin c-circleGradationBg01(tg)
+	-
+		var op = {
+			tag:       tg.tag ? tg.tag : "div",
+			baseName:  tg.baseName ? tg.baseName : "c-circleGradationBg01",
+			className: tg.className ? tg.className : "",
+			idName: tg.idName ? tg.idName : "circleGradationBg01",
+		}
+
+	#{op.tag}( class = op.baseName + " " + op.className )
+		.group.is-contents
+			block
+		.group.is-canvas( id = op.idName )
